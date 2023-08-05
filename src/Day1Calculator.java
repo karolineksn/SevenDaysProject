@@ -14,6 +14,20 @@ public class Day1Calculator {
         int valor2 = valor2Scanner.nextInt();
 
         System.out.print("A soma dos valores é igual a: " + (valor1 + valor2));
+        System.out.println(" ");
+
+        //Somando um double
+        Scanner valor3Scanner = new Scanner(System.in);
+        System.out.print("Digite um valor double: ");
+        double valor3 = valor3Scanner.nextDouble();
+
+        Scanner valor4Scanner = new Scanner(System.in);
+        System.out.print("Digite outro valor double: ");
+        double valor4 = valor4Scanner.nextDouble();
+        double resultado = valor3 + valor4;
+
+        System.out.print("A soma desses valores é igual a: " + resultado);
+
 
 
 
